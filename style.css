@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+background-color: hsl(187, 86%, 95%);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+align-items:center;
+}
+.head{
+    min-height:150px;
+    width:100%;
+   
+    
+}
+.container{
+    width: 90%;
+    background-color: #fff;
+    min-height:100vh;
+    border-radius:.8rem;
+    padding: 2rem;
+
+}
+.head-part{
+    text-align:center;
+}
+.head-part h1, p{
+padding:.5rem;
+}
+.input{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:auto;
+}
+.border{
+  
+    margin: 1rem auto;
+}
+.designs{
+    min-height: 100vh;
+    width:100%;
+    /* background: url(images/bg5.png) */
+    background-image: url(images/socials1.png);
+}
+.designs > div{
+    width:100%;
+    /* min-height: 330px; */
+    margin: .2em 0;
+    display:flex;
+    /* gap: .5rem; */
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.designs .dark, .designs .light{
+    aspect-ratio: 1/1;
+    min-height: 680px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: .8rem;
+    align-items: flex-end;
+  
+}
+
+.first-design .dark{
+    /* background-image: url(images/bg4.jpg); */
+    /* background-image: url(images/socials4.png); */
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: left bottom;
+}
+.first-design .light{
+    background-image: url(images/bg31.jpg);
+}
+.second-design .dark{
+    background-image: url(images/socials1.png);
+}
+.second-design .light{
+    background-image: url(images/social2.png);
+    background-position: 700px center;
+    background-size: cover;
+
+}
+.dark{
+    /* background: hsl(256, 89%, 7%); */
+    background-color: #fff;
+    color: #f5f5f5;
+}
+#float2{
+    display: flex;
+}
+#float2 .head1{
+    color: hsl(240, 97%, 46%);
+    font-weight: 900;
+    font-size: 4rem;
+    padding: 0;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+
+}
+#float2 .sub-head{
+    color: hsl(240, 97%, 46%);
+    font-weight: 600;
+    font-size: 3rem;
+ 
+}
+
+#float2 .float-img{
+   flex-basis: 35%;
+}
+#float2 .float-img img{
+    max-width: 100%;
+    transform: scale(-2.5, 2.5) translateY(120%);
+}
+.curvedd{
+    color: #666;
+    font-family: 'Tangerine', serif;
+    font-size: 3rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+.border2{
+    border: .2rem solid hsl(240, 97%, 46%);
+    margin-bottom: 2rem;
+}
+.border3{
+    border: .1rem solid hsl(240, 41%, 56%);
+    margin: 2rem 0;
+}
+.light{
+    background: hsl(256,89%, 90%);
+}
+.dark h4 span.business{
+    color: hsl(228, 100%, 50%);
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    margin-top: 2rem;
+
+}
+.light h1 span.business{
+    /* color: hsl(241, 100%, 50%); */
+}
+
+.imgcontent img{
+    width: 80%;
+}
+.imgcontent h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: right;
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+
+}
+.textcontent p{
+    color: #fff;
+    font-size: 1.1rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+
+}
+.message{
+    color: blue;
+    text-align: center;
+}
+.message h1.head2{
+   color:hsl(271, 97%, 46%);
+   font-weight: 900;
+   text-align: center;
+   font-size: 3rem;
+   text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+
+   
+}
+.message-img img{
+    width: 80%;
+}
+.message h1 span{
+    color: hsl(249, 83%, 54%) ;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    /* font-family: 'Tangerine', serif; */
+    /* font-size: 5rem; */
+
+
+}
+.messagep{
+    color: #333;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+
+}
+
+#last{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: relative;
+}
+.last-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.last-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+.last-text h1.head3{
+    color:#f2f2f2;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    
+ }
+ 
+
+ .last-text p{
+    color: #f2f2f2;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+
+ }
+ .last-text h1 span{
+    color: hsla(240, 84%, 60%, 0.785);
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    position: absolute;
+    padding: 2rem 0;
+ }
+
+ .bottom1{
+    width: 100%;
+    transform: scale(-2, 2) translateX(-46%);
+ 
+ }
+ .bottom2{
+    width: 50%;
+    transform: scale(1, 1) translate(-15%, 15%);
+    position: absolute;
+ 
+ }
+
+
+ .dark-1{
+    background-image: url(images/dark.jpeg);
+    background-position: 910px center;
+    position: relative;
+ }
+
+ .black-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+ }
+ .black-text h1.head3{
+    color: #111;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    padding-top: 2rem;
+ }
+
+ .black-text p{
+    color: #111;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    max-width: 60%;
+    line-height: 2;
+ }
+.black-img img{
+   width: 70%;
+   transform: scaleX(-1) translate(-35%, 30%);
+
+}
+ .dark-1 h1 span{
+    color: #333;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    z-index: 10;
+ }
+section.first-button{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 2rem .1rem;
+}
+
+section.first-button button{
+    padding: .5rem 1rem;
+    border: 2px solid hsl(256, 89%, 7%);
+    border-radius: .2rem;
+}
+.btndiv{
+    width: 100%;
+    padding: 1.5rem;
+}
+.btndiv button{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width:900px){
+    .designs > div{
+        flex-direction:column;
+    }
+}
